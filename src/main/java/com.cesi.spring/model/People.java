@@ -47,6 +47,10 @@ public class People {
         this.name = name;
     }
 
+    public String getSex() { return sex;}
+
+    public void setSex(String sex) { this.sex = sex; }
+
     public String getType() {
         return type;
     }
@@ -55,7 +59,4 @@ public class People {
         this.type = type;
     }
 
-    public String getSex() { return sex;}
-
-    public void setSex(String sex) { this.sex = sex; }
 }
